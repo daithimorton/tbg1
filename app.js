@@ -47,7 +47,6 @@ function scrollToBottomOfConsole() {
     textContainer.scrollIntoView(false);
 }
 
-// set focus on input when page first loads
 window.onload = function () {
     focusInput()
 }
