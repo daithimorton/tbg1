@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>CRT Terminal Console</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body onclick="focusInput()">
+    <div class="page">
+      <div class="console">
+        <div class="output">
+          <div class="text-container">
+            <p class="console-text"></p>
+          </div>
+        </div>
+        <div class="command-input">
+          <span>></span>
+          <input
+            type="text"
+            name="command-input"
+            id="command-input"
+            autocomplete="off"
+            onkeydown="submitCommand(this)"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
